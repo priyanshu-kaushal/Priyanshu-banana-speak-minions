@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Montserrat&display=swap');
+
 :root {
     --minion-black: #231F20;
     --minion-blue: #0A75BC;
@@ -8,13 +10,13 @@
 }
 
 body {
-    font-family: 'Kalam', cursive;
+    font-family: 'Comic Neue', cursive;
     margin: 0px;
 }
 
 textarea {
     width: 80%;
-    height: 20vh;
+    height: 15vh;
     display: block;
     margin-top: 3rem;
     padding: 1rem;
@@ -23,9 +25,10 @@ textarea {
 
 }
 #output {
+    font-family: 'Comic Neue';
     border: 1px solid var(--minion-black);
     width: 80%;
-    height: 20vh;
+    height: 15vh;
     padding: 1rem;
     max-width: 600px;
     margin: auto;
@@ -46,27 +49,27 @@ textarea {
     margin: auto;
     margin-bottom: 2rem;
 }
+.container-button {
+    padding: 1rem;
+    text-align: center;
+}
 .container {
     font-size: large;
     padding: 1rem 1rem;
-    margin-top: 2rem;
     text-align: center;
 }
 /**headerr**/
 .header{
     text-align: center;
 }
-/**buttonr**/
+/**button**/
 .button-translate {
     background-color: var(--minion-yellow);
     border: none;
-    margin-top : 2rem;
-    margin-left: 8rem;
     padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
     font-size: large;
-    color: var(--minion-black);
-    
+    color: var(--minion-black);   
 }
 /**list**/
 .list-non-bullet {
