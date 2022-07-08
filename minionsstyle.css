@@ -16,7 +16,7 @@ body {
 
 textarea {
     width: 80%;
-    height: 15vh;
+    height: 10vh;
     display: block;
     margin-top: 3rem;
     padding: 1rem;
@@ -28,7 +28,7 @@ textarea {
     font-family: 'Comic Neue';
     border: 1px solid var(--minion-black);
     width: 80%;
-    height: 15vh;
+    height: 10vh;
     padding: 1rem;
     max-width: 600px;
     margin: auto;
